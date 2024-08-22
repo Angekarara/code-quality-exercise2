@@ -1,3 +1,3 @@
-function multiplication(x, y) {
+function multipliying(x, y) {
   return x * y;
 }
