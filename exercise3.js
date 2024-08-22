@@ -1,4 +1,4 @@
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
-console.log(reverseString("you are the one"));
+console.log(reverseString("Cats chase mouse"));
