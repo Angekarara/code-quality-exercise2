@@ -1,11 +1,4 @@
 function calculateAverage(numbers) {
-    var sum = 0;
-    var count = 0;
-    for (var i = 0; i < numbers.length; i++) {
-      sum += numbers[i];
-      count++;
-    }
-    var average = sum / count;
-    return average;
-  }
-  console.log(calculateAverage([3,6,9,4]))
+  return numbers.reduce((acc, num) => acc + num) / numbers.length;
+}
+console.log(calculateAverage([3, 6, 9, 4]));
