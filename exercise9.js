@@ -6,7 +6,7 @@ function calculateMatrixSum(matrix) {
 }
 console.log(
   calculateMatrixSum([
-    [1, 2, 30],
+    [1, 2, 23],
     [4, 15, 6],
     [7, 8, 9],
   ])
